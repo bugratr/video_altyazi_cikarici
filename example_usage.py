@@ -13,12 +13,13 @@ def example_usage():
     """Örnek kullanım senaryoları"""
     
     # Örnek video dosyası yolu (kendi video dosyanızı kullanın)
-    video_path = "ornek.mp4"
+    video_path = "example_video.mp4"
     
     # Video dosyası var mı kontrol et
     if not os.path.exists(video_path):
         print(f"❌ Örnek video dosyası bulunamadı: {video_path}")
-        print("📁 Lütfen mevcut bir video dosyasının yolunu belirtin")
+        print("📁 Lütfen kendi video dosyanızı 'example_video.mp4' olarak adlandırın")
+        print("📁 Veya example_usage.py dosyasındaki 'video_path' değişkenini güncelleyin")
         return
     
     print("🎬 Video Altyazı Çıkarıcı - Örnek Kullanım")
